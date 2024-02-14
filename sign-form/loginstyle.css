@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+  background-color: #D071F9;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,  -50%);
+  width: 400px;
+  background-color:white;
+  border-radius: 5px;
+}
+.center h1{
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid silver;
+}
+.form{
+  padding-bottom: 18px;
+  margin: 10px 25px;
+  text-align: center;
+}
+.textfield{
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  border: 2px solid #D071F9;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin: 7px;
+}
+.btn{
+  width: 100%;
+  height: 50px;
+  background-color: #D071F9;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 7px  0;
+  color: white;
+  cursor: pointer;
+  border: 0;
+}
+.btn:hover{
+  background-color: blueviolet;
+}
+.forgetpass{
+  font-size: 16px;
+  padding: 4px 0;
+  margin: 6px;
+}
+.link{
+  color: rgb(93, 8, 211);
+}
+a{
+  text-decoration: none;
+  font-size: 18px;
+}
+@media(max-width:470px){
+  .center{
+    width: 88%;
+  }
+}
